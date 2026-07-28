@@ -39,7 +39,7 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 > **B2B customer support platform with embeddable AI chatbot engine**
 
 - **Live Platform**: [echodesk-platform.vercel.app](https://echodesk-platform.vercel.app/)
-- **GitHub Repository**: [github.com/YashChauhan245](https://github.com/YashChauhan245)
+- **GitHub Repository**: [github.com/YashChauhan245/EchoDesk](https://github.com/YashChauhan245/EchoDesk)
 - **Tech Stack**: Next.js, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Google Gemini AI, Razorpay API, pdf-parse.
 - **Key Highlights**:
   - Zero-dependency client-side embeddable JavaScript widget (`chatbot.js`) for instant website integration.
@@ -52,6 +52,7 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 > **Production-ready AI dental care platform with appointment booking & real-time voice calls**
 
 - **Live Platform**: [toothly-ai.vercel.app](https://toothly-ai.vercel.app/)
+- **GitHub Repository**: [github.com/YashChauhan245/Toothly](https://github.com/YashChauhan245/Toothly)
 - **Tech Stack**: Next.js 15, React 19, Tailwind CSS v4, Prisma, PostgreSQL, Clerk Auth, Vapi Voice SDK, Resend API.
 - **Key Highlights**:
   - AI voice assistant with real-time transcription and fluid audio UX via Vapi SDK (<250ms latency).
@@ -64,6 +65,7 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 > **AI-augmented language exchange & real-time WebRTC video platform**
 
 - **Live Platform**: [voxora-ulyj.onrender.com](https://voxora-ulyj.onrender.com)
+- **GitHub Repository**: [github.com/YashChauhan245/Voxora](https://github.com/YashChauhan245/Voxora)
 - **Tech Stack**: React 19, Vite, Tailwind CSS, Node.js, Express, MongoDB, GetStream WebRTC, Google Gemini AI.
 - **Key Highlights**:
   - Real-time WebSocket chat and WebRTC P2P video call rooms powered by GetStream SFU network.
@@ -75,6 +77,7 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 > **Multi-role food delivery platform with collaborative group ordering**
 
 - **Live Platform**: [yumzo-09or.onrender.com](https://yumzo-09or.onrender.com)
+- **GitHub Repository**: [github.com/YashChauhan245/Yumzo](https://github.com/YashChauhan245/Yumzo)
 - **Tech Stack**: React 19, Vite, Tailwind CSS v4, Node.js, Express, Prisma ORM, Supabase PostgreSQL, Socket.io, JWT.
 - **Key Highlights**:
   - Role-bounded customer/driver/admin workflows with real-time WebSocket order tracking.
