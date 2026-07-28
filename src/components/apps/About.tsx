@@ -57,18 +57,16 @@ export function About({ isDark }: AboutProps) {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              className={`w-32 h-32 rounded-2xl border-4 ${
-                isDark
+              className={`w-32 h-32 rounded-2xl border-4 ${isDark
                   ? "border-[#0a0a0a] bg-[#1e1e1e]"
                   : "border-gray-50 bg-white"
-              } flex items-center justify-center overflow-hidden shadow-xl`}
+                } flex items-center justify-center overflow-hidden shadow-xl`}
             >
               <div
-                className={`w-full h-full flex items-center justify-center text-4xl font-bold ${
-                  isDark
+                className={`w-full h-full flex items-center justify-center text-4xl font-bold ${isDark
                     ? "bg-gradient-to-br from-[#012042] to-[#55047e] text-white"
                     : "bg-gradient-to-br from-blue-500 to-purple-500 text-white"
-                }`}
+                  }`}
               >
                 YC
               </div>
@@ -136,11 +134,10 @@ export function About({ isDark }: AboutProps) {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`p-2.5 rounded-xl transition-all duration-200 ${
-                      isDark
+                    className={`p-2.5 rounded-xl transition-all duration-200 ${isDark
                         ? "bg-white/10 hover:bg-white/20 text-white hover:scale-105"
                         : "bg-black/10 hover:bg-black/20 text-gray-700 hover:scale-105"
-                    }`}
+                      }`}
                     title={link.label}
                   >
                     <Icon className="w-5 h-5" />
@@ -176,11 +173,10 @@ export function About({ isDark }: AboutProps) {
                     new CustomEvent("openApp", { detail: "contact" })
                   )
                 }
-                className={`px-3.5 py-2 text-xs font-semibold rounded-xl border transition-all active:scale-95 cursor-pointer ${
-                  isDark
+                className={`px-3.5 py-2 text-xs font-semibold rounded-xl border transition-all active:scale-95 cursor-pointer ${isDark
                     ? "border-white/20 hover:bg-white/10 text-white"
                     : "border-black/20 hover:bg-black/5 text-gray-800"
-                }`}
+                  }`}
               >
                 <span>✉️ Contact</span>
               </button>
@@ -192,9 +188,8 @@ export function About({ isDark }: AboutProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className={`mt-6 p-5 rounded-2xl ${
-              isDark ? "bg-white/5" : "bg-white"
-            }`}
+            className={`mt-6 p-5 rounded-2xl ${isDark ? "bg-white/5" : "bg-white"
+              }`}
             style={{
               border: `1px solid ${isDark ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.05)"}`,
             }}
@@ -226,9 +221,8 @@ export function About({ isDark }: AboutProps) {
             {STATS.map((stat) => (
               <div
                 key={stat.label}
-                className={`p-4 rounded-2xl text-center ${
-                  isDark ? "bg-white/5" : "bg-white"
-                }`}
+                className={`p-4 rounded-2xl text-center ${isDark ? "bg-white/5" : "bg-white"
+                  }`}
                 style={{
                   border: `1px solid ${isDark ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.05)"}`,
                 }}
@@ -252,9 +246,8 @@ export function About({ isDark }: AboutProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className={`mt-6 p-5 rounded-2xl ${
-              isDark ? "bg-white/5" : "bg-white"
-            }`}
+            className={`mt-6 p-5 rounded-2xl ${isDark ? "bg-white/5" : "bg-white"
+              }`}
             style={{
               border: `1px solid ${isDark ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.05)"}`,
             }}
@@ -267,9 +260,8 @@ export function About({ isDark }: AboutProps) {
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <div
-                  className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${
-                    isDark ? "bg-[#007aff]/20" : "bg-blue-100"
-                  }`}
+                  className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${isDark ? "bg-[#007aff]/20" : "bg-blue-100"
+                    }`}
                 >
                   <GraduationCap
                     className={`w-5 h-5 ${isDark ? "text-[#007aff]" : "text-blue-600"}`}
@@ -301,9 +293,8 @@ export function About({ isDark }: AboutProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7 }}
-            className={`mt-6 p-5 rounded-2xl ${
-              isDark ? "bg-white/5" : "bg-white"
-            }`}
+            className={`mt-6 p-5 rounded-2xl ${isDark ? "bg-white/5" : "bg-white"
+              }`}
             style={{
               border: `1px solid ${isDark ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.05)"}`,
             }}
@@ -337,7 +328,7 @@ export function About({ isDark }: AboutProps) {
                   className={`mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${isDark ? "bg-[#007aff]" : "bg-blue-500"}`}
                 />
                 <span>
-                  Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 10 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.
+                  Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.
                 </span>
               </li>
             </ul>

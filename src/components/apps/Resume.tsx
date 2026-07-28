@@ -30,29 +30,29 @@ type ResumeListItem = {
 
 type ResumeSection =
   | {
-      id: string;
-      title: string;
-      type: "text";
-      content: string;
-    }
+    id: string;
+    title: string;
+    type: "text";
+    content: string;
+  }
   | {
-      id: string;
-      title: string;
-      type: "list";
-      items: ResumeListItem[];
-    }
+    id: string;
+    title: string;
+    type: "list";
+    items: ResumeListItem[];
+  }
   | {
-      id: string;
-      title: string;
-      type: "skills";
-      categories: { label: string; value: string }[];
-    }
+    id: string;
+    title: string;
+    type: "skills";
+    categories: { label: string; value: string }[];
+  }
   | {
-      id: string;
-      title: string;
-      type: "bullets";
-      bullets: string[];
-    };
+    id: string;
+    title: string;
+    type: "bullets";
+    bullets: string[];
+  };
 
 /* =========================
    Resume Data
@@ -163,7 +163,7 @@ const RESUME_DATA: ResumeSection[] = [
     bullets: [
       "DSA Supreme 3.0 — Certificate of Completion, Code Help by Love Babbar (Jan 2026, Serial No. 4147WVAI).",
       "Solved 400+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.",
-      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 10 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.",
+      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.",
     ],
   },
 ];
@@ -175,9 +175,8 @@ const RESUME_DATA: ResumeSection[] = [
 export function Resume({ isDark }: ResumeProps) {
   return (
     <div
-      className={`w-full h-full overflow-auto pb-20 ${
-        isDark ? "bg-[#0a0a0a] text-gray-300" : "bg-white text-gray-800"
-      }`}
+      className={`w-full h-full overflow-auto pb-20 ${isDark ? "bg-[#0a0a0a] text-gray-300" : "bg-white text-gray-800"
+        }`}
     >
       <div className="max-w-4xl mx-auto p-6 md:p-12">
         {/* Header */}
@@ -285,9 +284,8 @@ export function Resume({ isDark }: ResumeProps) {
                               href={item.githubUrl}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className={`inline-flex items-center gap-1 text-xs font-semibold ${
-                                isDark ? "text-gray-300 bg-white/10 hover:bg-white/20" : "text-gray-700 bg-gray-100 hover:bg-gray-200"
-                              } px-2.5 py-1 rounded-md transition-all`}
+                              className={`inline-flex items-center gap-1 text-xs font-semibold ${isDark ? "text-gray-300 bg-white/10 hover:bg-white/20" : "text-gray-700 bg-gray-100 hover:bg-gray-200"
+                                } px-2.5 py-1 rounded-md transition-all`}
                             >
                               <Github className="w-3 h-3" />
                               GitHub
