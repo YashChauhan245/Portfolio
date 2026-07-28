@@ -39,7 +39,7 @@ const FILE_SYSTEM: FileSystem = {
 Role: Full-Stack Web Developer & SDE
 Location: New Delhi, India
 Education: B.Tech in CSE (GGSIPU GTB4CEC, CGPA: 8.5/10)
-LeetCode: 350+ Problems Solved
+LeetCode: 400+ Problems Solved
 
 Final-year CSE undergraduate with hands-on experience 
 building full-stack web applications, B2B SaaS platforms, 
@@ -161,7 +161,7 @@ DRDO, Scientific Analysis Group (Ministry of Defence) | June 2, 2025 - July 31, 
   "~/contact/social.txt": {
     type: "file",
     content:
-      "GitHub: https://github.com/YashChauhan245\nLinkedIn: https://linkedin.com/in/yash-chauhan-245",
+      "GitHub: https://github.com/YashChauhan245\nLinkedIn: https://www.linkedin.com/in/yash-chauhan-02b13a3b2\nLeetCode: https://leetcode.com/u/Yash_Chauhan24/",
   },
   "~/resume.pdf": {
     type: "file",

@@ -372,7 +372,7 @@ export function Settings({
                   ? "iPhone"
                   : deviceType === "tablet"
                     ? "iPad"
-                    : "MacBook Pro"}
+                    : "MacBook "}
               </span>
             </div>
           </div>

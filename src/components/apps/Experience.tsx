@@ -67,7 +67,7 @@ const LEADERSHIP: LeadershipItem[] = [
     title: "Hackathon Finalist & Top Finisher",
     organization: "CodeZen Hackathons & Build X: NSIT",
     description:
-      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 10 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.",
+      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.",
     gradient: "from-warning to-orange-400",
     iconColor: "text-warning",
   },
@@ -76,7 +76,7 @@ const LEADERSHIP: LeadershipItem[] = [
     title: "DSA Supreme 3.0 Specialist",
     organization: "Code Help by Love Babbar",
     description:
-      "Completed certification (Serial No. 4147WVAI) and solved 350+ algorithmic problems on LeetCode.",
+      "Completed certification (Serial No. 4147WVAI) and solved 400+ algorithmic problems on LeetCode.",
     gradient: "from-accent to-pink-500",
     iconColor: "text-accent",
   },

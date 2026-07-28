@@ -55,7 +55,7 @@ const SIDEBAR_ITEMS = [
   {
     section: "Locations",
     items: [
-      { id: "macbook", name: "MacBook Pro", icon: "HardDrive" },
+      { id: "macbook", name: "MacBook ", icon: "HardDrive" },
       { id: "network", name: "Network", icon: "Monitor" },
     ],
   },

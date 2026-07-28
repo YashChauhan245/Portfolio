@@ -5,6 +5,7 @@ import {
   MapPin,
   Github,
   Linkedin,
+  Code2,
   CheckCircle,
   ExternalLink,
 } from "lucide-react";
@@ -63,7 +64,7 @@ const RESUME_DATA: ResumeSection[] = [
     title: "Executive Summary",
     type: "text",
     content:
-      "Final-year CSE undergraduate (CGPA 8.5/10) with hands-on experience building full-stack web applications, B2B SaaS platforms, and real-time systems using Next.js 15, React 19, Node.js, Express, TypeScript, PostgreSQL, and MongoDB. Completed a frontend development internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS and financial analytics. Solved 350+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.",
+      "Final-year CSE undergraduate (CGPA 8.5/10) with hands-on experience building full-stack web applications, B2B SaaS platforms, and real-time systems using Next.js 15, React 19, Node.js, Express, TypeScript, PostgreSQL, and MongoDB. Completed a frontend development internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS and financial analytics. Solved 400+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.",
   },
   {
     id: "education",
@@ -134,7 +135,7 @@ const RESUME_DATA: ResumeSection[] = [
         subHeading: "Next.js, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Razorpay, Google Gemini AI",
         period: "Live SaaS Platform",
         liveUrl: "https://echodesk-platform.vercel.app/",
-        githubUrl: "https://github.com/YashChauhan245",
+        githubUrl: "https://github.com/YashChauhan245/EchoDesk",
         bullets: [
           "Built a multi-tenant B2B SaaS platform enabling custom RAG chatbot deployment via zero-dependency client widget (chatbot.js).",
           "Developed server-side knowledge engine parsing PDFs (pdf-parse) and crawling external URLs (html-to-text).",
@@ -161,7 +162,7 @@ const RESUME_DATA: ResumeSection[] = [
     type: "bullets",
     bullets: [
       "DSA Supreme 3.0 — Certificate of Completion, Code Help by Love Babbar (Jan 2026, Serial No. 4147WVAI).",
-      "Solved 350+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.",
+      "Solved 400+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.",
       "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 10 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.",
     ],
   },
@@ -218,9 +219,13 @@ export function Resume({ isDark }: ResumeProps) {
               <MapPin className="w-4 h-4" />
               New Delhi, India
             </div>
-            <a href="https://linkedin.com/in/yash-chauhan-245" target="_blank" rel="noopener noreferrer" className="flex gap-2 text-blue-500 hover:underline">
+            <a href="https://www.linkedin.com/in/yash-chauhan-02b13a3b2" target="_blank" rel="noopener noreferrer" className="flex gap-2 text-blue-500 hover:underline">
               <Linkedin className="w-4 h-4" />
               LinkedIn
+            </a>
+            <a href="https://leetcode.com/u/Yash_Chauhan24/" target="_blank" rel="noopener noreferrer" className="flex gap-2 text-blue-500 hover:underline">
+              <Code2 className="w-4 h-4" />
+              LeetCode
             </a>
             <a href="https://github.com/YashChauhan245" target="_blank" rel="noopener noreferrer" className="flex gap-2 text-blue-500 hover:underline">
               <Github className="w-4 h-4" />

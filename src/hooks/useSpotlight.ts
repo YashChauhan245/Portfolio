@@ -31,7 +31,7 @@ export function useSpotlight({ apps, onOpenApp }: UseSpotlightProps) {
       name: "Open LinkedIn",
       icon: "Linkedin.png",
       type: "command" as const,
-      action: () => window.open("https://linkedin.com", "_blank"),
+      action: () => window.open("https://www.linkedin.com/in/yash-chauhan-02b13a3b2", "_blank"),
     },
     {
       id: "theme",

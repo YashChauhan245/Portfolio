@@ -4,7 +4,8 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 
 [![Portfolio Live](https://img.shields.io/badge/Portfolio-Live-1DB954?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/YashChauhan245)
 [![GitHub](https://img.shields.io/badge/GitHub-YashChauhan245-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YashChauhan245)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash_Chauhan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yash-chauhan-245)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash_Chauhan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-chauhan-02b13a3b2)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Yash_Chauhan24-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Yash_Chauhan24/)
 [![Resume](https://img.shields.io/badge/Resume-PDF_View-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./public/YashChauhan_resume.pdf)
 
 ---
@@ -175,9 +176,9 @@ portfolio/
 ## 🏆 Certifications & Achievements
 
 - **CGPA**: **8.5 / 10** (B.Tech CSE, 2023 - 2027)
-- **Problem Solving**: **350+ LeetCode problems** solved with strong DSA foundation.
+- **Problem Solving**: **400+ LeetCode problems** solved with strong DSA foundation.
 - **Certification**: **DSA Supreme 3.0** (Code Help by Love Babbar — Serial #4147WVAI).
-- **Hackathons**: Participated in 15+ hackathons with Top 5 finishes in 5+ (Top 10 at CodeZen 2026 & 2025, Top 8 at Build X: NSIT).
+- **Hackathons**: Participated in 15+ hackathons with Top 5 finishes in 5+ (Top 3 at CodeZen 2026 & 2025, Top 8 at Build X: NSIT).
 
 ---
 
@@ -203,7 +204,8 @@ npm run build
 ## 📫 Connect With Me
 
 - **Email**: [yashchau.work@gmail.com](mailto:yashchau.work@gmail.com)
-- **LinkedIn**: [linkedin.com/in/yash-chauhan-245](https://linkedin.com/in/yash-chauhan-245)
+- **LinkedIn**: [linkedin.com/in/yash-chauhan-02b13a3b2](https://www.linkedin.com/in/yash-chauhan-02b13a3b2)
+- **LeetCode**: [leetcode.com/u/Yash_Chauhan24](https://leetcode.com/u/Yash_Chauhan24/)
 - **GitHub**: [github.com/YashChauhan245](https://github.com/YashChauhan245)
 - **Phone**: `+91 9711384254`
 

@@ -678,7 +678,7 @@ export function MenuBar({
                     <div
                       className={`text-sm ${isDark ? "text-white/60" : "text-gray-500"}`}
                     >
-                      Now discoverable as "Yash's MacBook Pro"
+                      Now discoverable as "Yash's MacBook "
                     </div>
                     <div
                       className={`mt-4 pt-3 border-t ${isDark ? "border-white/10" : "border-black/10"}`}

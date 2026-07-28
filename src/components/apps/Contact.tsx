@@ -7,6 +7,7 @@ import {
   Send,
   Github,
   Linkedin,
+  Code2,
   CheckCircle,
   AlertCircle,
   ExternalLink,
@@ -53,7 +54,12 @@ const SOCIAL_LINKS = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    url: "https://linkedin.com/in/yash-chauhan-245",
+    url: "https://www.linkedin.com/in/yash-chauhan-02b13a3b2",
+  },
+  {
+    icon: Code2,
+    label: "LeetCode",
+    url: "https://leetcode.com/u/Yash_Chauhan24/",
   },
 ];
 

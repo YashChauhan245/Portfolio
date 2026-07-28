@@ -73,9 +73,9 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
   {
     id: "4",
     date: "2026-02-20",
-    title: "Top 10 Finish at CodeZen 2026 & Build X: NSIT!",
+    title: "Top 3 Finish at CodeZen 2026 & Build X: NSIT!",
     category: "Hackathons",
-    content: `Secured Top 10 finish at CodeZen 2026 and Top 8 at Build X: NSIT!
+    content: `Secured Top 3 finish at CodeZen 2026 and Top 8 at Build X: NSIT!
 
 - Built and pitched full-stack AI prototypes under intense 36-hour time constraints.
 - Integrated Google Gemini streaming APIs and WebSocket state synchronization under real-time hackathon judging criteria.
@@ -85,9 +85,9 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
   {
     id: "5",
     date: "2026-01-15",
-    title: "350+ LeetCode Solved & DSA Supreme 3.0 Certified",
+    title: "400+ LeetCode Solved & DSA Supreme 3.0 Certified",
     category: "Algorithms & DSA",
-    content: `Earned DSA Supreme 3.0 certification by Love Babbar (Serial No. 4147WVAI) and crossed 350+ solved problems on LeetCode!
+    content: `Earned DSA Supreme 3.0 certification by Love Babbar (Serial No. 4147WVAI) and crossed 400+ solved problems on LeetCode!
 
 - Deep dive into Graph algorithms (Dijkstra, Tarjan, Topo Sort), Dynamic Programming (Knapsack, LCS, Bitmasking), Segment Trees, and Sliding Window techniques.
 - Practiced low-level & high-level system design patterns for scalable Web systems.`,

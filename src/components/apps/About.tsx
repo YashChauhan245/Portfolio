@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import {
   Github,
   Linkedin,
+  Code2,
   Mail,
   MapPin,
   Briefcase,
@@ -22,15 +23,20 @@ const SOCIAL_LINKS = [
   },
   {
     icon: Linkedin,
-    url: "https://linkedin.com/in/yash-chauhan-245",
+    url: "https://www.linkedin.com/in/yash-chauhan-02b13a3b2",
     label: "LinkedIn",
+  },
+  {
+    icon: Code2,
+    url: "https://leetcode.com/u/Yash_Chauhan24/",
+    label: "LeetCode",
   },
   { icon: Mail, url: "mailto:yashchau.work@gmail.com", label: "Email" },
 ];
 
 const STATS = [
   { label: "Projects", value: "6+" },
-  { label: "LeetCode", value: "350+" },
+  { label: "LeetCode", value: "400+" },
   { label: "CGPA", value: "8.5" },
   { label: "Hackathons", value: "15+" },
 ];
@@ -206,7 +212,7 @@ export function About({ isDark }: AboutProps) {
             <p
               className={`leading-relaxed mt-3 ${isDark ? "text-white/70" : "text-gray-600"}`}
             >
-              Completed a frontend development internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS, AI dental care platforms, financial analytics, and WebRTC language exchange platforms. Solved 350+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.
+              Completed a frontend development internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS, AI dental care platforms, financial analytics, and WebRTC language exchange platforms. Solved 400+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.
             </p>
           </motion.div>
 
@@ -323,7 +329,7 @@ export function About({ isDark }: AboutProps) {
                   className={`mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${isDark ? "bg-[#007aff]" : "bg-blue-500"}`}
                 />
                 <span>
-                  Solved 350+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.
+                  Solved 400+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.
                 </span>
               </li>
               <li className="flex items-start gap-2">
