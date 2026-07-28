@@ -2,7 +2,7 @@
 
 A modern, interactive **macOS Sonoma desktop portfolio** built to showcase production full-stack Web applications, AI platforms, technical skills, and engineering milestones.
 
-[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live-1DB954?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/YashChauhan245)
+[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live-1DB954?style=for-the-badge&logo=apple&logoColor=white)](https://iamyashchauhan.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-YashChauhan245-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YashChauhan245)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash_Chauhan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-chauhan-02b13a3b2)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Yash_Chauhan24-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Yash_Chauhan24/)
