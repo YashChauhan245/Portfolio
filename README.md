@@ -21,6 +21,20 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 
 ---
 
+## 🏢 Internship & Professional Experience
+
+### 🛡️ Frontend Development Intern — **DRDO (Scientific Analysis Group, Ministry of Defence)**
+> **June 2, 2025 — July 31, 2025 | On-site (New Delhi, India)**
+
+- **Project**: **IEEE Document Formatter & AI Assistant Tool**
+- **Tech Stack**: HTML5, CSS3, JavaScript, REST APIs, Python, LaTeX, Ollama AI (Phi-3 Mini).
+- **Key Contributions**:
+  - Engineered a multi-page web application featuring secure user auth, file uploads, and a dual-panel live editor with real-time **LaTeX-compiled PDF preview**.
+  - Integrated REST API endpoints connected to local **Ollama Phi-3 Mini AI** to automate IEEE-compliant content generation and document styling.
+  - Collaborated in a 3-member engineering team to ship production-ready UI modules following scientific documentation standards.
+
+---
+
 ## 🚀 Strategic Projects
 
 ### 1. 🟢 [FinSight — AI Financial Intelligence Platform](https://finsight-finance-ai.vercel.app)
