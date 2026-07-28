@@ -150,6 +150,17 @@ html {
   cursor: grabbing;
 }
 
+/* Option styling for select elements */
+select option {
+  background-color: #ffffff;
+  color: #1d1d1f;
+}
+
+.dark select option {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
 /* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   *,

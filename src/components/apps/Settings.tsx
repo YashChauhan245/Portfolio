@@ -56,7 +56,7 @@ const SETTING_SECTIONS: SettingSection[] = [
         id: "language",
         label: "Language",
         type: "select",
-        options: ["English", "Spanish", "French", "German"],
+        options: ["English", "French", "Hindi", "Spanish"],
       },
       {
         id: "autoUpdate",
@@ -243,6 +243,34 @@ export function Settings({
   const [activeSection, setActiveSection] = useState("general");
   const [isMobile, setIsMobile] = useState(false);
   const [customUrl, setCustomUrl] = useState("");
+  const [settingStates, setSettingStates] = useState<
+    Record<string, string | boolean>
+  >({
+    language: "English",
+    autoUpdate: true,
+    theme: isDark ? "Dark" : "Light",
+    accentColor: "Blue",
+    transparency: false,
+    showIcons: true,
+    magnification: true,
+    autoHide: false,
+    soundEffects: true,
+    userInterfaceSounds: true,
+    feedbackVolume: true,
+    showPreviews: "Always",
+    allowNotifications: true,
+    badges: true,
+    locationServices: true,
+    analytics: false,
+    fileVault: true,
+  });
+
+  useEffect(() => {
+    setSettingStates((prev) => ({
+      ...prev,
+      theme: isDark ? "Dark" : "Light",
+    }));
+  }, [isDark]);
 
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
@@ -673,8 +701,14 @@ export function Settings({
                             </span>
                             {setting.type === "toggle" && (
                               <button
+                                onClick={() => {
+                                  setSettingStates((prev) => ({
+                                    ...prev,
+                                    [setting.id]: !prev[setting.id],
+                                  }));
+                                }}
                                 className={`w-12 h-7 rounded-full transition-all relative ${
-                                  setting.value
+                                  (settingStates[setting.id] ?? setting.value)
                                     ? "bg-green-500"
                                     : isDark
                                       ? "bg-white/20"
@@ -683,7 +717,7 @@ export function Settings({
                               >
                                 <div
                                   className={`absolute top-0.5 w-6 h-6 rounded-full bg-white shadow-md transition-all ${
-                                    setting.value
+                                    (settingStates[setting.id] ?? setting.value)
                                       ? "translate-x-[22px]"
                                       : "translate-x-0.5"
                                   }`}
@@ -692,23 +726,50 @@ export function Settings({
                             )}
                             {setting.type === "select" && (
                               <select
+                                value={
+                                  (settingStates[setting.id] as string) ??
+                                  setting.options?.[0] ??
+                                  ""
+                                }
                                 onChange={(e) => {
+                                  const val = e.target.value;
+                                  setSettingStates((prev) => ({
+                                    ...prev,
+                                    [setting.id]: val,
+                                  }));
                                   if (
                                     setting.id === "theme" &&
-                                    (e.target.value === "Light" ||
-                                      e.target.value === "Dark")
+                                    ((val === "Dark" && !isDark) ||
+                                      (val === "Light" && isDark))
                                   ) {
                                     onToggleTheme();
                                   }
                                 }}
-                                className={`px-3 py-1.5 rounded-lg text-[13px] font-medium outline-none border ${
+                                className={`px-3 py-1.5 rounded-lg text-[13px] font-medium outline-none border cursor-pointer ${
                                   isDark
-                                    ? "bg-white/5 border-white/10 text-white"
-                                    : "bg-gray-50 border-gray-200 text-gray-900"
+                                    ? "bg-[#2a2a2a] border-white/20 text-white"
+                                    : "bg-white border-gray-300 text-gray-900"
                                 }`}
+                                style={{
+                                  colorScheme: isDark ? "dark" : "light",
+                                }}
                               >
                                 {setting.options?.map((opt) => (
-                                  <option key={opt} value={opt}>
+                                  <option
+                                    key={opt}
+                                    value={opt}
+                                    className={
+                                      isDark
+                                        ? "bg-[#2a2a2a] text-white"
+                                        : "bg-white text-gray-900"
+                                    }
+                                    style={{
+                                      backgroundColor: isDark
+                                        ? "#2a2a2a"
+                                        : "#ffffff",
+                                      color: isDark ? "#ffffff" : "#1d1d1f",
+                                    }}
+                                  >
                                     {opt}
                                   </option>
                                 ))}
