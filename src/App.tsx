@@ -419,7 +419,7 @@ function App() {
   return (
     <div
       className="h-screen w-screen overflow-hidden fixed inset-0 touch-none"
-      style={getBackgroundStyle(deviceType)}
+      style={getBackgroundStyle()}
     >
       {/* Wallpaper Overlay */}
       <div

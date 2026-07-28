@@ -113,8 +113,8 @@ export function useWallpaper() {
   }, [allWallpapers]);
 
   const getBackgroundStyle = useCallback(
-    (_forDeviceType?: DeviceType): React.CSSProperties => {
-      const wp = allWallpapers.find((w) => w.id === selectedWallpaper);
+    (): React.CSSProperties => {
+      const wp = DEFAULT_WALLPAPERS.concat(customWallpapers).find((w) => w.id === selectedWallpaper);
 
       if (!wp) {
         return {
@@ -139,7 +139,7 @@ export function useWallpaper() {
         backgroundRepeat: "no-repeat",
       };
     },
-    [selectedWallpaper, allWallpapers]
+    [selectedWallpaper, customWallpapers]
   );
 
   const addCustomWallpaper = useCallback(
