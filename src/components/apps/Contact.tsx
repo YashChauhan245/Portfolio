@@ -89,8 +89,8 @@ export function Contact({ isDark }: ContactProps) {
     setIsSubmitting(true);
 
     try {
-      // Simulate sending and trigger mailto fallback
-      await new Promise((resolve) => setTimeout(resolve, 800));
+      // Simulate sending and trigger web mail client
+      await new Promise((resolve) => setTimeout(resolve, 600));
 
       const mailtoSubject = encodeURIComponent(
         `[Portfolio Contact] ${formData.subject}`
@@ -99,11 +99,9 @@ export function Contact({ isDark }: ContactProps) {
         `Hi Yash,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       );
 
-      // Open user's default email client
-      window.open(
-        `mailto:yashchau.work@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`,
-        "_blank"
-      );
+      // Open Gmail compose directly in browser tab so Chrome users don't see a blank tab
+      const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=yashchau.work@gmail.com&su=${mailtoSubject}&body=${mailtoBody}`;
+      window.open(gmailComposeUrl, "_blank");
 
       setSubmitStatus("success");
       setFormData({ name: "", email: "", subject: "", message: "" });
