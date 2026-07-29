@@ -37,15 +37,16 @@ const PROJECTS: Project[] = [
   {
     id: "toothly",
     name: "Toothly",
-    description: "AI-powered dental care platform with appointment booking & real-time voice assistant",
+    description: "AI-powered dental care platform with 24/7 EchoDesk AI Chatbot, appointment booking & voice assistant",
     longDescription:
-      "A production-ready AI dental care platform built with Next.js 15 (App Router), React 19, Tailwind CSS v4, Prisma, PostgreSQL, and Clerk Authentication. Features a streamlined appointment booking flow, dentist availability management, subscription-gated AI voice calls (Vapi SDK), admin operational dashboard, and transactional email confirmations.",
+      "A production-ready AI dental care platform built with Next.js 15 (App Router), React 19, Tailwind CSS v4, Prisma, PostgreSQL, and Clerk Authentication. Integrated with EchoDesk AI Chatbot platform for 24/7 inquiries. Features a streamlined appointment booking flow, dentist availability management, subscription-gated AI voice calls (Vapi SDK), admin operational dashboard, and transactional email confirmations.",
     image: "/projects/toothly.png",
     techStack: [
       "Next.js 15",
       "React 19",
       "TypeScript",
       "Tailwind CSS v4",
+      "EchoDesk AI",
       "Prisma",
       "PostgreSQL",
       "Clerk Auth",
@@ -54,6 +55,7 @@ const PROJECTS: Project[] = [
     ],
     category: "AI/ML",
     year: "2026",
+    github: "https://github.com/YashChauhan245/Toothly",
     demo: "https://toothly-ai.vercel.app/",
     metrics: [
       { label: "Voice Latency", value: "< 250ms" },
@@ -61,9 +63,9 @@ const PROJECTS: Project[] = [
     ],
     featured: true,
     highlights: [
+      "Integrated 24/7 AI Customer Support Chatbot powered by custom EchoDesk platform for patient triage & doctor inquiries",
       "AI voice assistant with real-time transcription and fluid audio UX via Vapi SDK",
-      "Appointment booking flow with dentist selection, time slots, and confirmation",
-      "Role-bounded Admin dashboard for doctor availability and status tracking",
+      "Appointment booking flow with dentist selection, time slots, and automated email confirmations",
       "Subscription-gated AI access (ai_basic, ai_pro) integrated with Clerk billing",
     ],
     gradient: "from-primary to-blue-500",
@@ -125,6 +127,7 @@ const PROJECTS: Project[] = [
     ],
     category: "SaaS",
     year: "2026",
+    github: "https://github.com/YashChauhan245/EchoDesk",
     demo: "https://echodesk-platform.vercel.app/",
     metrics: [
       { label: "Deployment", value: "1-Line Script" },
@@ -132,7 +135,8 @@ const PROJECTS: Project[] = [
     ],
     featured: true,
     highlights: [
-      "Zero-dependency client-side embeddable JavaScript widget (chatbot.js) for live websites",
+      "Zero-dependency client-side embeddable JavaScript widget (chatbot.js) deployed on live platforms like Toothly",
+      "Designed a 5-tier Gemini Model Fallback Chain with local keyword matcher for 99.99% chatbot uptime",
       "Knowledge-ingestion engine parsing PDFs (pdf-parse) and crawling URLs into context-aware payloads",
       "Enterprise Scalekit SSO and WebAuthn/Passkey authentication with Edge Middleware isolation",
       "Razorpay subscription billing validated using SHA-256 HMAC cryptographic signatures",
@@ -595,11 +599,10 @@ export function Projects() {
                     <button
                       key={category}
                       onClick={() => setActiveCategory(category)}
-                      className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 whitespace-nowrap ${
-                        isActive
-                          ? "bg-primary text-primary-foreground shadow-glow"
-                          : "bg-secondary text-muted-foreground hover:text-foreground hover:bg-secondary/80"
-                      }`}
+                      className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 whitespace-nowrap ${isActive
+                        ? "bg-primary text-primary-foreground shadow-glow"
+                        : "bg-secondary text-muted-foreground hover:text-foreground hover:bg-secondary/80"
+                        }`}
                     >
                       {category}
                     </button>
