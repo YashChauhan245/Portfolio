@@ -79,7 +79,7 @@ internship at DRDO (Ministry of Defence).`,
   "~/projects/FinSight.txt": {
     type: "file",
     content: `FinSight - AI Financial Intelligence & Cashflow Analytics Platform
-Tech: Next.js 15, React 19, PostgreSQL (Neon), Prisma v6, Google Gemini AI, Inngest, Resend, Arcjet
+Tech: Next.js 15, React 19, NextAuth.js (v5), PostgreSQL (Neon), Prisma v6, Google Gemini AI, Inngest, Resend, Arcjet
 Features: Real-time cashflow analytics, MoM anomaly detection, OCR receipt scanning, budget burn-rate alerts.`,
   },
   "~/projects/EchoDesk.txt": {

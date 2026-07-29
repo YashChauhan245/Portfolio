@@ -77,11 +77,12 @@ const PROJECTS: Project[] = [
     name: "FinSight",
     description: "AI-powered financial intelligence & cashflow analytics platform",
     longDescription:
-      "A production-grade personal finance application built with Next.js 15, React 19, PostgreSQL (Neon), Prisma v6, and Google Gemini AI. It provides real-time cashflow analytics, automated MoM anomaly detection, OCR receipt scanning, budget burn-rate tracking with automated Resend email alerts, and context-aware financial Q&A.",
+      "A production-grade personal finance application built with Next.js 15, React 19, NextAuth.js (v5) authentication, PostgreSQL (Neon), Prisma v6, and Google Gemini AI. It provides real-time cashflow analytics, automated MoM anomaly detection, OCR receipt scanning, budget burn-rate tracking with automated Resend email alerts, and context-aware financial Q&A.",
     image: "/projects/finsight.png",
     techStack: [
       "Next.js 15",
       "React 19",
+      "NextAuth.js (v5)",
       "Tailwind CSS",
       "Prisma ORM (v6)",
       "PostgreSQL (Neon)",
@@ -100,7 +101,7 @@ const PROJECTS: Project[] = [
     ],
     featured: true,
     highlights: [
-      "Engineered financial analytics application using Next.js 15 Server Actions with Zod validation",
+      "Engineered financial analytics application using Next.js 15 Server Actions & NextAuth.js (v5) with Zod validation",
       "Automated Month-over-Month Anomaly Engine detecting spending spikes over 30%",
       "Context-aware AI assistant utilizing Google Gemini to analyze 90 days of user transaction data",
       "Inngest background job queues for automated monthly budget burn-rate alerts via Resend API",

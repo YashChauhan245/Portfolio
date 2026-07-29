@@ -144,12 +144,12 @@ const RESUME_DATA: ResumeSection[] = [
       },
       {
         heading: "FinSight — AI Financial Intelligence & Analytics Platform",
-        subHeading: "Next.js 15, PostgreSQL, Neon, Prisma ORM, Inngest, Google Gemini AI, Resend API",
+        subHeading: "Next.js 15, NextAuth.js (v5), PostgreSQL, Neon, Prisma ORM, Inngest, Google Gemini AI, Resend API",
         period: "Live Platform",
         liveUrl: "https://finsight-finance-ai.vercel.app",
         githubUrl: "https://github.com/YashChauhan245/FinSight",
         bullets: [
-          "Engineered financial analytics application using Next.js 15 Server Actions, PostgreSQL, and Prisma ORM v6 with Zod validation.",
+          "Engineered financial analytics application using Next.js 15 Server Actions, NextAuth.js (v5) authentication, PostgreSQL, and Prisma ORM v6 with Zod validation.",
           "Developed automated Month-over-Month (MoM) Anomaly Engine detecting spending spikes exceeding 30%.",
           "Implemented Inngest event-driven background queues for automated monthly budget burn-rate tracking & Resend email alerts.",
         ],

@@ -42,7 +42,7 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 
 - **Live Platform**: [finsight-finance-ai.vercel.app](https://finsight-finance-ai.vercel.app)
 - **GitHub Repository**: [github.com/YashChauhan245/FinSight](https://github.com/YashChauhan245/FinSight)
-- **Tech Stack**: Next.js 15, React 19, TypeScript, Prisma v6, PostgreSQL (Neon), Google Gemini AI, Inngest, Resend API, Arcjet.
+- **Tech Stack**: Next.js 15, React 19, TypeScript, NextAuth.js (v5), Prisma v6, PostgreSQL (Neon), Google Gemini AI, Inngest, Resend API, Arcjet.
 - **Key Highlights**:
   - Month-over-Month Anomaly Detection Engine identifying spending spikes over 30%.
   - Context-aware AI assistant leveraging Google Gemini to analyze 90 days of transaction data.
