@@ -166,6 +166,7 @@ const PROJECTS: Project[] = [
     ],
     category: "Full Stack",
     year: "2026",
+    github: "https://github.com/YashChauhan245/Voxora",
     demo: "https://voxora-ulyj.onrender.com",
     metrics: [
       { label: "Real-Time", value: "WebRTC / WS" },
@@ -201,6 +202,7 @@ const PROJECTS: Project[] = [
     ],
     category: "Full Stack",
     year: "2026",
+    github: "https://github.com/YashChauhan245/Yumzo",
     demo: "https://yumzo-09or.onrender.com",
     metrics: [
       { label: "Roles", value: "Customer/Driver/Admin" },
