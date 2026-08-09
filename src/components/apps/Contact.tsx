@@ -11,6 +11,7 @@ import {
   CheckCircle,
   AlertCircle,
   ExternalLink,
+  Globe,
 } from "lucide-react";
 
 interface ContactProps {
@@ -46,6 +47,11 @@ const CONTACT_INFO = [
 ];
 
 const SOCIAL_LINKS = [
+  {
+    icon: Globe,
+    label: "Portfolio",
+    url: "https://iamyashchauhan.vercel.app/",
+  },
   {
     icon: Github,
     label: "GitHub",

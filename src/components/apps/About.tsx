@@ -7,6 +7,7 @@ import {
   MapPin,
   Briefcase,
   GraduationCap,
+  Globe,
 } from "lucide-react";
 
 interface AboutProps {
@@ -16,6 +17,11 @@ interface AboutProps {
 import { MacOSHero } from "./HeroSection";
 
 const SOCIAL_LINKS = [
+  {
+    icon: Globe,
+    url: "https://iamyashchauhan.vercel.app/",
+    label: "Portfolio",
+  },
   {
     icon: Github,
     url: "https://github.com/YashChauhan245",

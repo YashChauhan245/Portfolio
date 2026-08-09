@@ -8,6 +8,7 @@ import {
   Code2,
   CheckCircle,
   ExternalLink,
+  Globe,
 } from "lucide-react";
 
 /* =========================
@@ -188,45 +189,84 @@ export function Resume({ isDark }: ResumeProps) {
                 Full-Stack Web Developer & SDE
               </p>
             </div>
-            <button
-              onClick={() => {
-                const link = document.createElement("a");
-                link.href = "/YashChauhan_resume.pdf";
-                link.download = "Yash_Chauhan_Resume.pdf";
-                link.click();
-              }}
-              className="flex items-center h-fit w-fit gap-2 px-4 py-2 border rounded-lg text-sm font-semibold"
-            >
-              <Download className="w-4 h-4" />
-              Download Resume
-            </button>
+            <div className="flex flex-wrap items-center gap-3">
+              <a
+                href="/YashChauhan_resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center h-fit w-fit gap-2 px-4 py-2 border rounded-lg text-sm font-semibold transition-all ${
+                  isDark
+                    ? "border-white/20 bg-white/5 hover:bg-white/10 text-white"
+                    : "border-gray-300 bg-gray-50 hover:bg-gray-100 text-gray-800"
+                }`}
+              >
+                <ExternalLink className="w-4 h-4" />
+                View PDF
+              </a>
+              <button
+                onClick={() => {
+                  const link = document.createElement("a");
+                  link.href = "/YashChauhan_resume.pdf";
+                  link.download = "Yash_Chauhan_Resume.pdf";
+                  link.click();
+                }}
+                className="flex items-center h-fit w-fit gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-semibold transition-all shadow-md active:scale-95 cursor-pointer"
+              >
+                <Download className="w-4 h-4" />
+                Download Resume
+              </button>
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-y-3 mt-8 text-sm opacity-80">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-3 gap-x-4 mt-8 text-sm opacity-80">
             <a
               href="mailto:yashchau.work@gmail.com"
-              className="flex gap-2 hover:text-blue-500 transition-colors"
+              className="flex items-center gap-2 hover:text-blue-500 transition-colors"
             >
-              <Mail className="w-4 h-4" />
+              <Mail className="w-4 h-4 text-blue-500" />
               yashchau.work@gmail.com
             </a>
-            <div className="flex gap-2">
-              <Phone className="w-4 h-4" />
+            <div className="flex items-center gap-2">
+              <Phone className="w-4 h-4 text-blue-500" />
               +91 9711384254
             </div>
-            <div className="flex gap-2">
-              <MapPin className="w-4 h-4" />
+            <div className="flex items-center gap-2">
+              <MapPin className="w-4 h-4 text-blue-500" />
               New Delhi, India
             </div>
-            <a href="https://www.linkedin.com/in/yash-chauhan-02b13a3b2" target="_blank" rel="noopener noreferrer" className="flex gap-2 text-blue-500 hover:underline">
+            <a
+              href="https://iamyashchauhan.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-blue-500 hover:underline font-medium"
+            >
+              <Globe className="w-4 h-4" />
+              Portfolio
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yash-chauhan-02b13a3b2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-blue-500 hover:underline font-medium"
+            >
               <Linkedin className="w-4 h-4" />
               LinkedIn
             </a>
-            <a href="https://leetcode.com/u/Yash_Chauhan24/" target="_blank" rel="noopener noreferrer" className="flex gap-2 text-blue-500 hover:underline">
+            <a
+              href="https://leetcode.com/u/Yash_Chauhan24/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-blue-500 hover:underline font-medium"
+            >
               <Code2 className="w-4 h-4" />
               LeetCode
             </a>
-            <a href="https://github.com/YashChauhan245" target="_blank" rel="noopener noreferrer" className="flex gap-2 text-blue-500 hover:underline">
+            <a
+              href="https://github.com/YashChauhan245"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-blue-500 hover:underline font-medium"
+            >
               <Github className="w-4 h-4" />
               GitHub
             </a>

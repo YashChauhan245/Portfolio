@@ -161,7 +161,7 @@ DRDO, Scientific Analysis Group (Ministry of Defence) | June 2, 2025 - July 31, 
   "~/contact/social.txt": {
     type: "file",
     content:
-      "GitHub: https://github.com/YashChauhan245\nLinkedIn: https://www.linkedin.com/in/yash-chauhan-02b13a3b2\nLeetCode: https://leetcode.com/u/Yash_Chauhan24/",
+      "Portfolio: https://iamyashchauhan.vercel.app/\nGitHub: https://github.com/YashChauhan245\nLinkedIn: https://www.linkedin.com/in/yash-chauhan-02b13a3b2\nLeetCode: https://leetcode.com/u/Yash_Chauhan24/",
   },
   "~/resume.pdf": {
     type: "file",
