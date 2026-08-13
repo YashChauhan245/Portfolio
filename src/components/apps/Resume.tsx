@@ -104,7 +104,7 @@ const RESUME_DATA: ResumeSection[] = [
       },
       {
         label: "Platforms & Tools",
-        value: "Git, Vercel, Render, Inngest, Postman, Figma, Razorpay API, Resend, Gemini AI",
+        value: "Docker & Docker Compose, Git, Vercel, Render, Inngest, Postman, Figma, Razorpay API, Resend, Gemini AI",
       },
     ],
   },
@@ -133,7 +133,7 @@ const RESUME_DATA: ResumeSection[] = [
     items: [
       {
         heading: "EchoDesk — Enterprise B2B Support & Embeddable Chatbot Engine",
-        subHeading: "Next.js, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Razorpay, Google Gemini AI",
+        subHeading: "Next.js 16 (Standalone), Docker & Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Razorpay, Google Gemini AI",
         period: "Live SaaS Platform",
         liveUrl: "https://echodesk-platform.vercel.app/",
         githubUrl: "https://github.com/YashChauhan245/EchoDesk",

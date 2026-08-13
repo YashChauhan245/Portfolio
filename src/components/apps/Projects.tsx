@@ -114,10 +114,12 @@ const PROJECTS: Project[] = [
     name: "EchoDesk",
     description: "Enterprise B2B support platform & embeddable AI chatbot engine",
     longDescription:
-      "A modern B2B SaaS platform that enables businesses to train intelligent customer support chatbots on custom knowledge bases (PDF documents & web URLs) and deploy them to any website in minutes via a single line of client script. Built with Next.js, MongoDB, Scalekit SSO/Passkeys, Google Gemini AI, and Razorpay subscriptions.",
+      "A modern B2B SaaS platform containerized with multi-stage Docker (Node 20 Alpine) & standalone Next.js bundling (~150MB footprint). Enables businesses to train intelligent customer support chatbots on custom knowledge bases (PDF documents & web URLs) and deploy them to any website in minutes via a single line of client script. Built with Next.js 16, Docker, MongoDB, Scalekit SSO/Passkeys, Google Gemini AI, and Razorpay subscriptions.",
     image: "/projects/echodesk.png",
     techStack: [
-      "Next.js",
+      "Next.js 16",
+      "Docker",
+      "Docker Compose",
       "MongoDB",
       "Mongoose",
       "Scalekit (SSO/Passkeys)",
@@ -136,6 +138,7 @@ const PROJECTS: Project[] = [
     ],
     featured: true,
     highlights: [
+      "Containerized using 3-stage Node 20 Alpine multi-stage Docker build with Next.js standalone bundling (~150MB container footprint) & docker-compose orchestration",
       "Zero-dependency client-side embeddable JavaScript widget (chatbot.js) deployed on live platforms like Toothly",
       "Designed a 5-tier Gemini Model Fallback Chain with local keyword matcher for 99.99% chatbot uptime",
       "Knowledge-ingestion engine parsing PDFs (pdf-parse) and crawling URLs into context-aware payloads",

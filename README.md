@@ -55,8 +55,9 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 
 - **Live Platform**: [echodesk-platform.vercel.app](https://echodesk-platform.vercel.app/)
 - **GitHub Repository**: [github.com/YashChauhan245/EchoDesk](https://github.com/YashChauhan245/EchoDesk)
-- **Tech Stack**: Next.js, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Google Gemini AI, Razorpay API, pdf-parse.
+- **Tech Stack**: Next.js 16, Docker, Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Google Gemini AI, Razorpay API, pdf-parse.
 - **Key Highlights**:
+  - Containerized using 3-stage Node 20 Alpine Docker build with standalone Next.js bundling (~150MB footprint) & docker-compose orchestration.
   - Zero-dependency client-side embeddable JavaScript widget (`chatbot.js`) for instant website integration.
   - Knowledge ingestion engine parsing PDFs (`pdf-parse`) and crawling URLs into context-aware payloads.
   - Enterprise Scalekit SSO and WebAuthn/Passkey authentication with Edge Middleware isolation.

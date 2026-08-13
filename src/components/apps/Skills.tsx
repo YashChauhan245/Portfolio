@@ -131,6 +131,7 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     gradient: "from-slate-400 to-slate-500",
     iconColor: "text-slate-400",
     skills: [
+      { name: "Docker & Docker Compose" },
       { name: "Git & GitHub" },
       { name: "Vercel" },
       { name: "Render" },
