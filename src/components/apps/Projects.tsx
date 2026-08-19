@@ -112,12 +112,12 @@ const PROJECTS: Project[] = [
   {
     id: "echodesk",
     name: "EchoDesk",
-    description: "Enterprise B2B support platform & embeddable AI chatbot engine",
+    description: "Enterprise B2B AI support platform with embeddable chatbot, live inbox & conversation analytics",
     longDescription:
-      "A modern B2B SaaS platform containerized with multi-stage Docker (Node 20 Alpine) & standalone Next.js bundling (~150MB footprint). Enables businesses to train intelligent customer support chatbots on custom knowledge bases (PDF documents & web URLs) and deploy them to any website in minutes via a single line of client script. Built with Next.js 16, Docker, MongoDB, Scalekit SSO/Passkeys, Google Gemini AI, and Razorpay subscriptions.",
+      "A modern B2B SaaS platform containerized with multi-stage Docker (Node 20 Alpine) & standalone Next.js bundling (~150MB footprint). Enables businesses to train intelligent customer support chatbots on custom knowledge bases (PDF documents & web URLs) and deploy them to any website in minutes via a single line of client script. Features a full Live Inbox dashboard with paginated conversation viewer, flagged low-confidence response detection, and one-click CSV/JSON/PDF transcript export. Built with Next.js 15, Docker, MongoDB, Scalekit SSO/Passkeys, Google Gemini AI, and Razorpay subscriptions.",
     image: "/projects/echodesk.png",
     techStack: [
-      "Next.js 16",
+      "Next.js 15",
       "Docker",
       "Docker Compose",
       "MongoDB",
@@ -135,12 +135,16 @@ const PROJECTS: Project[] = [
     metrics: [
       { label: "Deployment", value: "1-Line Script" },
       { label: "Auth", value: "Scalekit SSO" },
+      { label: "Inbox", value: "Live + Export" },
     ],
     featured: true,
     highlights: [
       "Containerized using 3-stage Node 20 Alpine multi-stage Docker build with Next.js standalone bundling (~150MB container footprint) & docker-compose orchestration",
       "Zero-dependency client-side embeddable JavaScript widget (chatbot.js) deployed on live platforms like Toothly",
       "Designed a 5-tier Gemini Model Fallback Chain with local keyword matcher for 99.99% chatbot uptime",
+      "Live Inbox dashboard (/dashboard/inbox) with paginated two-panel conversation viewer, search, and mobile-responsive layout",
+      "Flagged response detection via MongoDB $elemMatch on 10 fallback phrases — surfaces low-confidence bot messages with amber highlights and per-message labels",
+      "One-click transcript export as CSV, JSON, or print-to-PDF directly from the browser (zero server round-trip)",
       "Knowledge-ingestion engine parsing PDFs (pdf-parse) and crawling URLs into context-aware payloads",
       "Enterprise Scalekit SSO and WebAuthn/Passkey authentication with Edge Middleware isolation",
       "Razorpay subscription billing validated using SHA-256 HMAC cryptographic signatures",

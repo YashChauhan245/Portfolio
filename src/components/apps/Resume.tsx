@@ -132,15 +132,16 @@ const RESUME_DATA: ResumeSection[] = [
     type: "list",
     items: [
       {
-        heading: "EchoDesk — Enterprise B2B Support & Embeddable Chatbot Engine",
-        subHeading: "Next.js 16 (Standalone), Docker & Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Razorpay, Google Gemini AI",
+        heading: "EchoDesk — Enterprise B2B AI Support & Inbox Platform",
+        subHeading: "Next.js 15 (Standalone), Docker & Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Razorpay, Google Gemini AI",
         period: "Live SaaS Platform",
         liveUrl: "https://echodesk-platform.vercel.app/",
         githubUrl: "https://github.com/YashChauhan245/EchoDesk",
         bullets: [
-          "Built a multi-tenant B2B SaaS platform enabling custom RAG chatbot deployment via zero-dependency client widget (chatbot.js).",
-          "Developed server-side knowledge engine parsing PDFs (pdf-parse) and crawling external URLs (html-to-text).",
-          "Integrated Scalekit enterprise SSO and passwordless WebAuthn/Passkey authentication paired with Edge Middleware.",
+          "Built a multi-tenant B2B SaaS platform enabling custom RAG chatbot deployment via zero-dependency client widget (chatbot.js) with 5-tier Gemini model fallback chain for 99.99% uptime.",
+          "Shipped Live Inbox dashboard (/dashboard/inbox) with paginated two-panel conversation viewer, server-side search, and flagged response detection via MongoDB $elemMatch on 10 fallback phrases.",
+          "Implemented one-click transcript export (CSV, JSON, print-to-PDF) client-side with zero server round-trip; flagged low-confidence bot messages highlighted with per-message labels.",
+          "Integrated Scalekit enterprise SSO and passwordless WebAuthn/Passkey authentication with Edge Middleware isolation and Razorpay SHA-256 HMAC verified subscription billing.",
         ],
       },
       {

@@ -84,9 +84,10 @@ Features: Real-time cashflow analytics, MoM anomaly detection, OCR receipt scann
   },
   "~/projects/EchoDesk.txt": {
     type: "file",
-    content: `EchoDesk - Enterprise B2B Support Platform & Embeddable Chatbot
-Tech: Next.js 16, Docker, Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Google Gemini AI, Razorpay, pdf-parse, html-to-text
-Features: Zero-dependency 1-line client widget, RAG knowledge ingestion, Scalekit SSO, Razorpay subscriptions.`,
+    content: `EchoDesk - Enterprise B2B AI Support & Inbox Platform
+Tech: Next.js 15, Docker, Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Google Gemini AI, Razorpay, pdf-parse, html-to-text
+Features: Zero-dependency 1-line client widget, RAG knowledge ingestion, Live Inbox with search & pagination, flagged low-confidence response detection, CSV/JSON/PDF transcript export, Scalekit SSO, Razorpay subscriptions.`,
+
   },
   "~/projects/Voxora.txt": {
     type: "file",
@@ -454,11 +455,11 @@ export function Terminal({ isDark }: TerminalProps) {
                 const { text, styles } = parseAnsi(line);
                 const inlineStyles = styles
                   ? Object.fromEntries(
-                      styles
-                        .split(";")
-                        .filter((s) => s)
-                        .map((s) => s.split(":").map((v) => v.trim())),
-                    )
+                    styles
+                      .split(";")
+                      .filter((s) => s)
+                      .map((s) => s.split(":").map((v) => v.trim())),
+                  )
                   : {};
                 return (
                   <div
