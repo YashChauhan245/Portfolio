@@ -50,17 +50,20 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 
 ---
 
-### 2. ⚡ [EchoDesk — Enterprise B2B Support Engine](https://echodesk-platform.vercel.app/)
-> **B2B customer support platform with embeddable AI chatbot engine**
+### 2. ⚡ [EchoDesk — Enterprise B2B AI Support & Inbox Platform](https://echodesk-platform.vercel.app/)
+> **B2B customer support platform with embeddable AI chatbot, live inbox & conversation analytics**
 
 - **Live Platform**: [echodesk-platform.vercel.app](https://echodesk-platform.vercel.app/)
 - **GitHub Repository**: [github.com/YashChauhan245/EchoDesk](https://github.com/YashChauhan245/EchoDesk)
-- **Tech Stack**: Next.js 16, Docker, Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Google Gemini AI, Razorpay API, pdf-parse.
+- **Tech Stack**: Next.js 15, Docker, Docker Compose, MongoDB, Mongoose, Scalekit (SSO/Passkeys), Google Gemini AI, Razorpay API, pdf-parse.
 - **Key Highlights**:
   - Containerized using 3-stage Node 20 Alpine Docker build with standalone Next.js bundling (~150MB footprint) & docker-compose orchestration.
   - Zero-dependency client-side embeddable JavaScript widget (`chatbot.js`) for instant website integration.
-  - Knowledge ingestion engine parsing PDFs (`pdf-parse`) and crawling URLs into context-aware payloads.
+  - **Live Inbox** dashboard with paginated two-panel conversation viewer, search, and mobile-responsive layout.
+  - **Flagged response detection** via MongoDB `$elemMatch` on 10 fallback phrases — surfaces low-confidence bot messages.
+  - **One-click transcript export** as CSV, JSON, or print-to-PDF (browser-native, zero server round-trip).
   - Enterprise Scalekit SSO and WebAuthn/Passkey authentication with Edge Middleware isolation.
+
 
 ---
 
