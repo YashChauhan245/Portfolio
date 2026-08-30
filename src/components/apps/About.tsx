@@ -334,7 +334,7 @@ export function About({ isDark }: AboutProps) {
                   className={`mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${isDark ? "bg-[#007aff]" : "bg-blue-500"}`}
                 />
                 <span>
-                  Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.
+                  Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 in iQOO and Innov8 Hackathon, and Top 8 at Build X: NSIT.
                 </span>
               </li>
             </ul>

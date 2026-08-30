@@ -65,9 +65,9 @@ const LEADERSHIP: LeadershipItem[] = [
   {
     icon: Trophy,
     title: "Hackathon Finalist & Top Finisher",
-    organization: "CodeZen Hackathons & Build X: NSIT",
+    organization: "iQOO, Innov8 Hackathon & Build X: NSIT",
     description:
-      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.",
+      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 in iQOO and Innov8 Hackathon, and Top 8 at Build X: NSIT.",
     gradient: "from-warning to-orange-400",
     iconColor: "text-warning",
   },

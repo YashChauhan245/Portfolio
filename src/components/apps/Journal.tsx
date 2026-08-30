@@ -73,9 +73,9 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
   {
     id: "4",
     date: "2026-02-20",
-    title: "Top 3 Finish at CodeZen 2026 & Build X: NSIT!",
+    title: "Top 3 Finish at iQOO & Innov8 Hackathon!",
     category: "Hackathons",
-    content: `Secured Top 3 finish at CodeZen 2026 and Top 8 at Build X: NSIT!
+    content: `Secured Top 3 finish at iQOO and Innov8 Hackathon, and Top 8 at Build X: NSIT!
 
 - Built and pitched full-stack AI prototypes under intense 36-hour time constraints.
 - Integrated Google Gemini streaming APIs and WebSocket state synchronization under real-time hackathon judging criteria.

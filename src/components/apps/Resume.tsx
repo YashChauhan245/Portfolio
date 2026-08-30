@@ -138,7 +138,7 @@ const RESUME_DATA: ResumeSection[] = [
         liveUrl: "https://echodesk-platform.vercel.app/",
         githubUrl: "https://github.com/YashChauhan245/EchoDesk",
         bullets: [
-          "Built a multi-tenant B2B SaaS platform enabling custom RAG chatbot deployment via zero-dependency client widget (chatbot.js) with 5-tier Gemini model fallback chain for 99.99% uptime.",
+          "Built a multi-tenant B2B SaaS platform enabling custom chatbot deployment via zero-dependency client widget (chatbot.js) with 5-tier Gemini model fallback chain for 99.99% uptime.",
           "Shipped Live Inbox dashboard (/dashboard/inbox) with paginated two-panel conversation viewer, server-side search, and flagged response detection via MongoDB $elemMatch on 10 fallback phrases.",
           "Implemented one-click transcript export (CSV, JSON, print-to-PDF) client-side with zero server round-trip; flagged low-confidence bot messages highlighted with per-message labels.",
           "Integrated Scalekit enterprise SSO and passwordless WebAuthn/Passkey authentication with Edge Middleware isolation and Razorpay SHA-256 HMAC verified subscription billing.",
@@ -165,7 +165,7 @@ const RESUME_DATA: ResumeSection[] = [
     bullets: [
       "DSA Supreme 3.0 — Certificate of Completion, Code Help by Love Babbar (Jan 2026, Serial No. 4147WVAI).",
       "Solved 400+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.",
-      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 at CodeZen 2026 & 2025 and Top 8 at Build X: NSIT.",
+      "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 in iQOO and Innov8 Hackathon, and Top 8 at Build X: NSIT.",
     ],
   },
 ];
@@ -195,11 +195,10 @@ export function Resume({ isDark }: ResumeProps) {
                 href="/YashChauhan_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`flex items-center h-fit w-fit gap-2 px-4 py-2 border rounded-lg text-sm font-semibold transition-all ${
-                  isDark
+                className={`flex items-center h-fit w-fit gap-2 px-4 py-2 border rounded-lg text-sm font-semibold transition-all ${isDark
                     ? "border-white/20 bg-white/5 hover:bg-white/10 text-white"
                     : "border-gray-300 bg-gray-50 hover:bg-gray-100 text-gray-800"
-                }`}
+                  }`}
               >
                 <ExternalLink className="w-4 h-4" />
                 View PDF

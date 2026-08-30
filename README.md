@@ -196,7 +196,7 @@ portfolio/
 - **CGPA**: **8.5 / 10** (B.Tech CSE, 2023 - 2027)
 - **Problem Solving**: **400+ LeetCode problems** solved with strong DSA foundation.
 - **Certification**: **DSA Supreme 3.0** (Code Help by Love Babbar — Serial #4147WVAI).
-- **Hackathons**: Participated in 15+ hackathons with Top 5 finishes in 5+ (Top 3 at CodeZen 2026 & 2025, Top 8 at Build X: NSIT).
+- **Hackathons**: Participated in 15+ hackathons with Top 5 finishes in 5+ (Top 3 in iQOO and Innov8 Hackathon, Top 8 at Build X: NSIT).
 
 ---
 
