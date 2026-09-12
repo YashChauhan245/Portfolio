@@ -42,7 +42,7 @@ const SOCIAL_LINKS = [
 
 const STATS = [
   { label: "Projects", value: "6+" },
-  { label: "LeetCode", value: "400+" },
+  { label: "LeetCode", value: "500+" },
   { label: "CGPA", value: "8.5" },
   { label: "Hackathons", value: "15+" },
 ];
@@ -213,7 +213,7 @@ export function About({ isDark }: AboutProps) {
             <p
               className={`leading-relaxed mt-3 ${isDark ? "text-white/70" : "text-gray-600"}`}
             >
-              Completed a frontend development internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS, AI dental care platforms, financial analytics, and WebRTC language exchange platforms. Solved 400+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.
+              Completed a software engineering & research internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS, AI dental care platforms, financial analytics, and WebRTC language exchange platforms. Solved 500+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.
             </p>
           </motion.div>
 
@@ -326,7 +326,7 @@ export function About({ isDark }: AboutProps) {
                   className={`mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${isDark ? "bg-[#007aff]" : "bg-blue-500"}`}
                 />
                 <span>
-                  Solved 400+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.
+                  Solved 500+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.
                 </span>
               </li>
               <li className="flex items-start gap-2">

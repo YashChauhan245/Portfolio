@@ -65,7 +65,7 @@ const RESUME_DATA: ResumeSection[] = [
     title: "Executive Summary",
     type: "text",
     content:
-      "Final-year CSE undergraduate (CGPA 8.5/10) with hands-on experience building full-stack web applications, B2B SaaS platforms, and real-time systems using Next.js 15, React 19, Node.js, Express, TypeScript, PostgreSQL, and MongoDB. Completed a frontend development internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS and financial analytics. Solved 400+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.",
+      "Final-year CSE undergraduate (CGPA 8.5/10) with hands-on experience building full-stack web applications, B2B SaaS platforms, and real-time systems using Next.js 15, React 19, Node.js, Express, TypeScript, PostgreSQL, and MongoDB. Completed a software engineering & research internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS and financial analytics. Solved 500+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.",
   },
   {
     id: "education",
@@ -114,14 +114,17 @@ const RESUME_DATA: ResumeSection[] = [
     type: "list",
     items: [
       {
-        heading: "Frontend Development Intern",
+        heading: "Software Engineering & Research Intern",
         subHeading: "DRDO, Scientific Analysis Group (Ministry of Defence)",
-        period: "June 2025 – July 2025",
+        period: "June 2025 – August 2025",
         location: "New Delhi, India",
         bullets: [
-          "Designed and developed a responsive, multi-page frontend for an IEEE Document Formatter tool, including login/signup, file upload, and a dual-panel live editor with real-time LaTeX-compiled PDF preview.",
-          "Integrated the frontend with backend REST API endpoints to enable AI-powered content generation (Ollama Phi-3 Mini) and IEEE-compliant PDF output.",
-          "Collaborated cross-functionally with a team of 3 to ship production-ready scientific documentation UI modules.",
+          "Engineered an automated end-to-end publishing platform using Python (Flask), Jinja2, and LaTeX (IEEEtran.cls), converting raw manuscripts (DOCX/PDF) into publication-ready, two-column IEEE conference and journal papers.",
+          "Integrated local LLMs (Phi-3 Mini & Llama 3 via Ollama) to generate IEEE-standard titles, structured abstracts, and keywords locally, guaranteeing zero data leakage within an air-gapped defense environment.",
+          "Architected a document parsing & image extraction pipeline using PyMuPDF and PDFMiner; extracted raw image byte streams via PDF xref tables and normalized them into 300+ DPI RGB PNGs with dynamic single/double-column aspect ratio placement.",
+          "Built an automated 3-pass pdflatex compilation engine via Python subprocesses, programmatically resolving .aux references, bibtex citations, and floating double-column figure alignment with zero manual LaTeX intervention.",
+          "Migrated application persistence from MongoDB to SQLite, eliminating external background daemon overhead, cutting runtime memory footprint, and enabling a self-contained, offline-first deployment.",
+          "Developed a split-screen reactive web editor with synchronized real-time PDF previews, hardening the platform with custom regex sanitization (safe_latex_escape) against LaTeX macro injection and securing access via bcrypt.",
         ],
       },
     ],
@@ -164,7 +167,7 @@ const RESUME_DATA: ResumeSection[] = [
     type: "bullets",
     bullets: [
       "DSA Supreme 3.0 — Certificate of Completion, Code Help by Love Babbar (Jan 2026, Serial No. 4147WVAI).",
-      "Solved 400+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.",
+      "Solved 500+ problems on LeetCode with strong command of arrays, trees, graphs, DP, and sliding window techniques.",
       "Participated in 15+ hackathons with Top 5 finishes in 5+, including Top 3 in iQOO and Innov8 Hackathon, and Top 8 at Build X: NSIT.",
     ],
   },

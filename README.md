@@ -16,22 +16,25 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 - **Degree**: B.Tech in Computer Science & Engineering (2023 – 2027)
 - **College**: Guru Tegh Bahadur 4th Centenary Engineering College (GGSIPU)
 - **CGPA**: **8.5 / 10**
-- **Internship**: Frontend Development Intern at **DRDO** (Scientific Analysis Group, Ministry of Defence) — June to July 2025
+- **Internship**: Software Engineering & Research Intern at **DRDO** (Scientific Analysis Group, Ministry of Defence) — June to August 2025
 - **Contact**: `yashchau.work@gmail.com` | `+91 9711384254` | New Delhi, India
 
 ---
 
 ## 🏢 Internship & Professional Experience
 
-### 🛡️ Frontend Development Intern — **DRDO (Scientific Analysis Group, Ministry of Defence)**
-> **June 2, 2025 — July 31, 2025 | On-site (New Delhi, India)**
+### 🛡️ Software Engineering & Research Intern — **DRDO (Scientific Analysis Group, Ministry of Defence)**
+> **June 2025 — August 2025 | On-site (New Delhi, India)**
 
-- **Project**: **IEEE Document Formatter & AI Assistant Tool**
-- **Tech Stack**: HTML5, CSS3, JavaScript, REST APIs, Python, LaTeX, Ollama AI (Phi-3 Mini).
+- **Project**: **IEEE Document Formatter & Local AI Publishing Platform**
+- **Tech Stack**: Python (Flask), SQLite 3, LaTeX (`pdflatex`, `IEEEtran.cls`), Ollama (Phi-3 Mini & Llama 3), PyMuPDF, PDFMiner, Pillow (PIL), LibreOffice Headless, JavaScript, bcrypt.
 - **Key Contributions**:
-  - Engineered a multi-page web application featuring secure user auth, file uploads, and a dual-panel live editor with real-time **LaTeX-compiled PDF preview**.
-  - Integrated REST API endpoints connected to local **Ollama Phi-3 Mini AI** to automate IEEE-compliant content generation and document styling.
-  - Collaborated in a 3-member engineering team to ship production-ready UI modules following scientific documentation standards.
+  - **End-to-End Publishing Pipeline**: Engineered an automated full-stack platform converting raw manuscripts (DOCX/PDF) into publication-ready two-column IEEE conference and journal publications.
+  - **Offline Local AI Integration**: Deployed local LLMs (Microsoft Phi-3 Mini & Llama 3 via Ollama) to generate IEEE titles, structured abstracts, and index terms completely offline, guaranteeing zero data leakage in an air-gapped defense environment.
+  - **Parsing & Image Normalization**: Architected document extraction using PyMuPDF & PDFMiner; extracted raw image byte streams via PDF `xref` tables and normalized them to 300+ DPI RGB PNGs with dynamic single/double-column aspect ratio placement.
+  - **Automated 3-Pass LaTeX Compilation**: Built an automated `pdflatex` compilation engine via Python subprocesses, programmatically resolving `.aux` references, bibtex citations, and floating double-column figure alignment with zero manual intervention.
+  - **Database Architecture Migration**: Migrated application persistence from MongoDB to SQLite, eliminating external daemon overhead and enabling a self-contained, air-gapped offline deployment.
+  - **Hardened Split-Screen Live Editor**: Developed a reactive split-screen web editor with synchronized real-time PDF previews, hardened against LaTeX macro injection (`safe_latex_escape`) and secured with bcrypt authentication.
 
 ---
 
@@ -194,7 +197,7 @@ portfolio/
 ## 🏆 Certifications & Achievements
 
 - **CGPA**: **8.5 / 10** (B.Tech CSE, 2023 - 2027)
-- **Problem Solving**: **400+ LeetCode problems** solved with strong DSA foundation.
+- **Problem Solving**: **500+ LeetCode problems** solved with strong DSA foundation.
 - **Certification**: **DSA Supreme 3.0** (Code Help by Love Babbar — Serial #4147WVAI).
 - **Hackathons**: Participated in 15+ hackathons with Top 5 finishes in 5+ (Top 3 in iQOO and Innov8 Hackathon, Top 8 at Build X: NSIT).
 

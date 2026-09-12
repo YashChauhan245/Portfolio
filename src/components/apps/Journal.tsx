@@ -85,9 +85,9 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
   {
     id: "5",
     date: "2026-01-15",
-    title: "400+ LeetCode Solved & DSA Supreme 3.0 Certified",
+    title: "500+ LeetCode Solved & DSA Supreme 3.0 Certified",
     category: "Algorithms & DSA",
-    content: `Earned DSA Supreme 3.0 certification by Love Babbar (Serial No. 4147WVAI) and crossed 400+ solved problems on LeetCode!
+    content: `Earned DSA Supreme 3.0 certification by Love Babbar (Serial No. 4147WVAI) and crossed 500+ solved problems on LeetCode!
 
 - Deep dive into Graph algorithms (Dijkstra, Tarjan, Topo Sort), Dynamic Programming (Knapsack, LCS, Bitmasking), Segment Trees, and Sliding Window techniques.
 - Practiced low-level & high-level system design patterns for scalable Web systems.`,
@@ -95,14 +95,14 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
   },
   {
     id: "6",
-    date: "2025-06-02",
+    date: "2025-06-16",
     title: "Day 1 at DRDO — Scientific Analysis Group (Ministry of Defence)",
     category: "Internship",
-    content: `Today was Day 1 of my Frontend Development Internship at DRDO (Scientific Analysis Group, Ministry of Defence) in New Delhi! (June 2, 2025 – July 31, 2025)
+    content: `Today was Day 1 of my Software Engineering & Research Internship at DRDO (Scientific Analysis Group, Ministry of Defence) in New Delhi! (June 2025 – August 2025)
 
-- Joined the team for developing an IEEE Document Formatter tool for researchers and defense scientists.
-- Designed and built a responsive multi-page UI including login/signup, file upload, and dual-panel live editor with real-time LaTeX-compiled PDF previews.
-- Integrated REST API endpoints with Ollama Phi-3 Mini AI model for automated abstract summarization and IEEE-compliant PDF output.`,
+- Joined DRDO SAG to engineer the IEEE Document Formatter platform for researchers and defense scientists.
+- Designed and built the full-stack architecture with Python Flask, SQLite, and dual-panel live editor with real-time LaTeX-compiled PDF previews.
+- Integrated offline local LLMs (Ollama with Phi-3 Mini) for privacy-preserving, air-gapped title/abstract generation and automated 3-pass pdflatex compilation.`,
     mood: "reflective",
   },
 ];

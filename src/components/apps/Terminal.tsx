@@ -39,11 +39,11 @@ const FILE_SYSTEM: FileSystem = {
 Role: Full-Stack Web Developer & SDE
 Location: New Delhi, India
 Education: B.Tech in CSE (GGSIPU GTB4CEC, CGPA: 8.5/10)
-LeetCode: 400+ Problems Solved
+LeetCode: 500+ Problems Solved
 
 Final-year CSE undergraduate with hands-on experience 
 building full-stack web applications, B2B SaaS platforms, 
-and real-time AI systems. Completed a frontend development 
+and real-time AI systems. Completed a software engineering & research 
 internship at DRDO (Ministry of Defence).`,
   },
   "~/README.md": {
@@ -148,11 +148,15 @@ Features: ATS resume scoring, AI cover letter generator, interactive mock interv
   },
   "~/experience/DRDO.txt": {
     type: "file",
-    content: `Frontend Development Intern
-DRDO, Scientific Analysis Group (Ministry of Defence) | June 2, 2025 - July 31, 2025
+    content: `Software Engineering & Research Intern
+DRDO, Scientific Analysis Group (Ministry of Defence) | June 2025 - August 2025
 
-- Developed responsive frontend for IEEE Document Formatter tool with live LaTeX-compiled preview.
-- Integrated backend REST APIs for AI content generation (Ollama Phi-3 Mini) and IEEE compliant PDF output.`,
+- Engineered automated end-to-end publishing platform (Python/Flask, LaTeX) converting raw manuscripts into two-column IEEE papers.
+- Integrated local LLMs (Phi-3 Mini & Llama 3 via Ollama) completely offline with zero data leakage for defense research.
+- Architected document parsing and image extraction pipeline using PyMuPDF, PDFMiner, and Pillow (300+ DPI normalization).
+- Built automated 3-pass pdflatex compilation engine via subprocesses resolving aux references, citations, and figure placement.
+- Migrated database from MongoDB to SQLite for self-contained, air-gapped offline deployment.
+- Developed synchronized split-screen reactive web editor with real-time PDF preview and bcrypt authentication.`,
   },
   "~/contact": { type: "directory", children: ["email.txt", "social.txt"] },
   "~/contact/email.txt": {
@@ -348,8 +352,8 @@ export function Terminal({ isDark }: TerminalProps) {
         return [
           "\x1b[1mWork Experience:\x1b[0m",
           "",
-          "\x1b[33mDRDO, Scientific Analysis Group (Ministry of Defence)\x1b[0m (Frontend Intern)",
-          "Developed IEEE Document Formatter tool with live LaTeX-compiled preview & AI content generation.",
+          "\x1b[33mDRDO, Scientific Analysis Group (Ministry of Defence)\x1b[0m (Software Engineering & Research Intern)",
+          "Engineered IEEE Document Formatter platform with local LLMs (Ollama), PyMuPDF, SQLite, & automated LaTeX compilation.",
         ];
 
       case "contact":
