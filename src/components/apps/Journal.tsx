@@ -98,7 +98,7 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
     date: "2025-06-16",
     title: "Day 1 at DRDO — Scientific Analysis Group (Ministry of Defence)",
     category: "Internship",
-    content: `Today was Day 1 of my Software Engineering & Research Internship at DRDO (Scientific Analysis Group, Ministry of Defence) in New Delhi! (June 2025 – August 2025)
+    content: `Today was Day 1 of my Software Engineering  Internship at DRDO (Scientific Analysis Group, Ministry of Defence) in New Delhi! (June 2025 – August 2025)
 
 - Joined DRDO SAG to engineer the IEEE Document Formatter platform for researchers and defense scientists.
 - Designed and built the full-stack architecture with Python Flask, SQLite, and dual-panel live editor with real-time LaTeX-compiled PDF previews.
@@ -223,11 +223,10 @@ export default function Journal({ isDark }: JournalProps) {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search entries & tech..."
-              className={`flex-1 bg-transparent outline-none text-sm ${
-                isDark
+              className={`flex-1 bg-transparent outline-none text-sm ${isDark
                   ? "text-white placeholder:text-white/30"
                   : "text-gray-900 placeholder:text-black/40"
-              }`}
+                }`}
             />
           </div>
         </div>
@@ -242,17 +241,15 @@ export default function Journal({ isDark }: JournalProps) {
               <button
                 key={entry.id}
                 onClick={() => handleSelectEntry(entry)}
-                className={`w-full p-4 text-left border-b transition-all border-transparent ${
-                  isDark ? "border-b-white/5" : "border-b-black/5"
-                } ${
-                  isSelected
+                className={`w-full p-4 text-left border-b transition-all border-transparent ${isDark ? "border-b-white/5" : "border-b-black/5"
+                  } ${isSelected
                     ? isDark
                       ? "bg-white/10 border-l-4 border-l-blue-500"
                       : "bg-blue-50 border-l-4 border-l-blue-500"
                     : isDark
                       ? "hover:bg-white/5"
                       : "hover:bg-black/5"
-                }`}
+                  }`}
               >
                 <div className="flex items-start gap-3">
                   <div

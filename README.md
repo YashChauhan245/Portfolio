@@ -16,14 +16,14 @@ A modern, interactive **macOS Sonoma desktop portfolio** built to showcase produ
 - **Degree**: B.Tech in Computer Science & Engineering (2023 – 2027)
 - **College**: Guru Tegh Bahadur 4th Centenary Engineering College (GGSIPU)
 - **CGPA**: **8.5 / 10**
-- **Internship**: Software Engineering & Research Intern at **DRDO** (Scientific Analysis Group, Ministry of Defence) — June to August 2025
+- **Internship**: Software Engineering Intern at **DRDO** (Scientific Analysis Group, Ministry of Defence) — June to August 2025
 - **Contact**: `yashchau.work@gmail.com` | `+91 9711384254` | New Delhi, India
 
 ---
 
 ## 🏢 Internship & Professional Experience
 
-### 🛡️ Software Engineering & Research Intern — **DRDO (Scientific Analysis Group, Ministry of Defence)**
+### 🛡️ Software Engineering Intern — **DRDO (Scientific Analysis Group, Ministry of Defence)**
 > **June 2025 — August 2025 | On-site (New Delhi, India)**
 
 - **Project**: **IEEE Document Formatter & Local AI Publishing Platform**

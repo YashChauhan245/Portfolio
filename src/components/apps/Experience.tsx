@@ -28,8 +28,8 @@ const EXPERIENCES: Job[] = [
   {
     id: "drdo",
     company: "DRDO, Scientific Analysis Group (Ministry of Defence)",
-    role: "Software Engineering & Research Intern",
-    type: "On-site / Research Internship",
+    role: "Software Engineering Intern",
+    type: "On-site",
     location: "New Delhi, India",
     startDate: "June 2025",
     endDate: "August 2025",

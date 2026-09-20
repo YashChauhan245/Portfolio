@@ -121,9 +121,8 @@ export function Contact({ isDark }: ContactProps) {
 
   return (
     <div
-      className={`w-full h-full overflow-y-auto overflow-x-hidden ${
-        isDark ? "bg-[#0a0a0a]" : "bg-gray-50"
-      } custom-scrollbar`}
+      className={`w-full h-full overflow-y-auto overflow-x-hidden ${isDark ? "bg-[#0a0a0a]" : "bg-gray-50"
+        } custom-scrollbar`}
     >
       <div className="max-w-4xl mx-auto p-6 md:p-10">
         {/* Header */}
@@ -133,16 +132,14 @@ export function Contact({ isDark }: ContactProps) {
           className="text-center mb-10"
         >
           <h1
-            className={`text-3xl md:text-4xl font-bold tracking-tight ${
-              isDark ? "text-white" : "text-gray-900"
-            }`}
+            className={`text-3xl md:text-4xl font-bold tracking-tight ${isDark ? "text-white" : "text-gray-900"
+              }`}
           >
             Get In Touch
           </h1>
           <p
-            className={`mt-3 text-lg ${
-              isDark ? "text-white/50" : "text-gray-600"
-            }`}
+            className={`mt-3 text-lg ${isDark ? "text-white/50" : "text-gray-600"
+              }`}
           >
             Have a project in mind or an SDE role opportunity? Let's talk!
           </p>
@@ -162,35 +159,30 @@ export function Contact({ isDark }: ContactProps) {
                 const card = (
                   <motion.div
                     whileHover={{ scale: 1.02 }}
-                    className={`flex items-center gap-4 p-4 rounded-2xl transition-all border ${
-                      isDark
+                    className={`flex items-center gap-4 p-4 rounded-2xl transition-all border ${isDark
                         ? "bg-[#1c1c1e] border-white/5 hover:border-white/10"
                         : "bg-white border-gray-100 shadow-sm hover:shadow-md"
-                    }`}
+                      }`}
                   >
                     <div
-                      className={`w-11 h-11 rounded-xl flex items-center justify-center ${
-                        isDark ? "bg-[#007aff]/10" : "bg-blue-50"
-                      }`}
+                      className={`w-11 h-11 rounded-xl flex items-center justify-center ${isDark ? "bg-[#007aff]/10" : "bg-blue-50"
+                        }`}
                     >
                       <Icon
-                        className={`w-5 h-5 ${
-                          isDark ? "text-[#0a84ff]" : "text-[#007aff]"
-                        }`}
+                        className={`w-5 h-5 ${isDark ? "text-[#0a84ff]" : "text-[#007aff]"
+                          }`}
                       />
                     </div>
                     <div className="flex-1 min-w-0">
                       <p
-                        className={`text-[11px] font-semibold uppercase tracking-wider ${
-                          isDark ? "text-white/30" : "text-gray-400"
-                        }`}
+                        className={`text-[11px] font-semibold uppercase tracking-wider ${isDark ? "text-white/30" : "text-gray-400"
+                          }`}
                       >
                         {item.label}
                       </p>
                       <p
-                        className={`text-sm font-medium truncate ${
-                          isDark ? "text-white" : "text-gray-900"
-                        }`}
+                        className={`text-sm font-medium truncate ${isDark ? "text-white" : "text-gray-900"
+                          }`}
                       >
                         {item.value}
                       </p>
@@ -213,16 +205,14 @@ export function Contact({ isDark }: ContactProps) {
 
             {/* Social Links Card */}
             <div
-              className={`p-5 rounded-2xl border ${
-                isDark
+              className={`p-5 rounded-2xl border ${isDark
                   ? "bg-[#1c1c1e] border-white/5"
                   : "bg-white border-gray-100 shadow-sm"
-              }`}
+                }`}
             >
               <p
-                className={`text-xs font-semibold uppercase tracking-wider mb-4 ${
-                  isDark ? "text-white/30" : "text-gray-400"
-                }`}
+                className={`text-xs font-semibold uppercase tracking-wider mb-4 ${isDark ? "text-white/30" : "text-gray-400"
+                  }`}
               >
                 Connect with me
               </p>
@@ -235,11 +225,10 @@ export function Contact({ isDark }: ContactProps) {
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all ${
-                        isDark
+                      className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all ${isDark
                           ? "bg-white/5 hover:bg-white/15 text-white"
                           : "bg-gray-100 hover:bg-gray-200 text-gray-700"
-                      }`}
+                        }`}
                       title={social.label}
                     >
                       <Icon className="w-6 h-6" />
@@ -251,11 +240,10 @@ export function Contact({ isDark }: ContactProps) {
 
             {/* Availability Badge */}
             <div
-              className={`p-5 rounded-2xl border ${
-                isDark
+              className={`p-5 rounded-2xl border ${isDark
                   ? "bg-[#30d158]/10 border-[#30d158]/20"
                   : "bg-green-50 border-green-100"
-              }`}
+                }`}
             >
               <div className="flex items-center gap-2 mb-2">
                 <span className="relative flex h-3 w-3">
@@ -263,17 +251,15 @@ export function Contact({ isDark }: ContactProps) {
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                 </span>
                 <span
-                  className={`text-sm font-bold ${
-                    isDark ? "text-[#30d158]" : "text-green-700"
-                  }`}
+                  className={`text-sm font-bold ${isDark ? "text-[#30d158]" : "text-green-700"
+                    }`}
                 >
                   Open for Opportunities
                 </span>
               </div>
               <p
-                className={`text-xs leading-relaxed ${
-                  isDark ? "text-white/50" : "text-gray-600"
-                }`}
+                className={`text-xs leading-relaxed ${isDark ? "text-white/50" : "text-gray-600"
+                  }`}
               >
                 I'm actively seeking SDE roles and software engineering opportunities.
                 Feel free to reach out anytime!
@@ -289,19 +275,17 @@ export function Contact({ isDark }: ContactProps) {
           >
             <form
               onSubmit={handleSubmit}
-              className={`p-6 md:p-8 rounded-2xl border ${
-                isDark
+              className={`p-6 md:p-8 rounded-2xl border ${isDark
                   ? "bg-[#1c1c1e] border-white/5 shadow-2xl"
                   : "bg-white border-gray-100 shadow-xl"
-              }`}
+                }`}
             >
               <div className="grid md:grid-cols-2 gap-5">
                 <div className="space-y-2">
                   <label
                     htmlFor="name"
-                    className={`text-sm font-medium ${
-                      isDark ? "text-white/70" : "text-gray-700"
-                    }`}
+                    className={`text-sm font-medium ${isDark ? "text-white/70" : "text-gray-700"
+                      }`}
                   >
                     Full Name
                   </label>
@@ -312,11 +296,10 @@ export function Contact({ isDark }: ContactProps) {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className={`w-full px-4 py-3 rounded-xl outline-none transition-all border ${
-                      isDark
+                    className={`w-full px-4 py-3 rounded-xl outline-none transition-all border ${isDark
                         ? "bg-white/5 border-white/5 text-white focus:border-[#0a84ff] focus:bg-white/10"
                         : "bg-gray-50 border-gray-200 text-gray-900 focus:border-[#007aff] focus:bg-white"
-                    }`}
+                      }`}
                     placeholder="Your Name"
                   />
                 </div>
@@ -324,9 +307,8 @@ export function Contact({ isDark }: ContactProps) {
                 <div className="space-y-2">
                   <label
                     htmlFor="email"
-                    className={`text-sm font-medium ${
-                      isDark ? "text-white/70" : "text-gray-700"
-                    }`}
+                    className={`text-sm font-medium ${isDark ? "text-white/70" : "text-gray-700"
+                      }`}
                   >
                     Email Address
                   </label>
@@ -337,11 +319,10 @@ export function Contact({ isDark }: ContactProps) {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className={`w-full px-4 py-3 rounded-xl outline-none transition-all border ${
-                      isDark
+                    className={`w-full px-4 py-3 rounded-xl outline-none transition-all border ${isDark
                         ? "bg-white/5 border-white/5 text-white focus:border-[#0a84ff] focus:bg-white/10"
                         : "bg-gray-50 border-gray-200 text-gray-900 focus:border-[#007aff] focus:bg-white"
-                    }`}
+                      }`}
                     placeholder="name@example.com"
                   />
                 </div>
@@ -350,9 +331,8 @@ export function Contact({ isDark }: ContactProps) {
               <div className="mt-5 space-y-2">
                 <label
                   htmlFor="subject"
-                  className={`text-sm font-medium ${
-                    isDark ? "text-white/70" : "text-gray-700"
-                  }`}
+                  className={`text-sm font-medium ${isDark ? "text-white/70" : "text-gray-700"
+                    }`}
                 >
                   Subject
                 </label>
@@ -363,11 +343,10 @@ export function Contact({ isDark }: ContactProps) {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className={`w-full px-4 py-3 rounded-xl outline-none transition-all border ${
-                    isDark
+                  className={`w-full px-4 py-3 rounded-xl outline-none transition-all border ${isDark
                       ? "bg-white/5 border-white/5 text-white focus:border-[#0a84ff] focus:bg-white/10"
                       : "bg-gray-50 border-gray-200 text-gray-900 focus:border-[#007aff] focus:bg-white"
-                  }`}
+                    }`}
                   placeholder="Software Engineering Inquiry / Project"
                 />
               </div>
@@ -375,9 +354,8 @@ export function Contact({ isDark }: ContactProps) {
               <div className="mt-5 space-y-2">
                 <label
                   htmlFor="message"
-                  className={`text-sm font-medium ${
-                    isDark ? "text-white/70" : "text-gray-700"
-                  }`}
+                  className={`text-sm font-medium ${isDark ? "text-white/70" : "text-gray-700"
+                    }`}
                 >
                   Message
                 </label>
@@ -388,11 +366,10 @@ export function Contact({ isDark }: ContactProps) {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className={`w-full px-4 py-3 rounded-xl outline-none transition-all border resize-none ${
-                    isDark
+                  className={`w-full px-4 py-3 rounded-xl outline-none transition-all border resize-none ${isDark
                       ? "bg-white/5 border-white/5 text-white focus:border-[#0a84ff] focus:bg-white/10"
                       : "bg-gray-50 border-gray-200 text-gray-900 focus:border-[#007aff] focus:bg-white"
-                  }`}
+                    }`}
                   placeholder="Write your message here..."
                 />
               </div>
@@ -400,11 +377,10 @@ export function Contact({ isDark }: ContactProps) {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={`w-full mt-8 flex items-center justify-center gap-3 px-6 py-4 rounded-xl font-bold transition-all cursor-pointer shadow-lg active:scale-95 ${
-                  isSubmitting
+                className={`w-full mt-8 flex items-center justify-center gap-3 px-6 py-4 rounded-xl font-bold transition-all cursor-pointer shadow-lg active:scale-95 ${isSubmitting
                     ? "bg-gray-500 text-white cursor-wait"
                     : "bg-[#007aff] hover:bg-[#0066d6] text-white shadow-blue-500/25"
-                }`}
+                  }`}
               >
                 {isSubmitting ? (
                   <>
@@ -429,11 +405,10 @@ export function Contact({ isDark }: ContactProps) {
                     className="mt-4 overflow-hidden"
                   >
                     <div
-                      className={`p-4 rounded-xl flex items-center gap-3 ${
-                        isDark
+                      className={`p-4 rounded-xl flex items-center gap-3 ${isDark
                           ? "bg-green-500/10 text-green-400"
                           : "bg-green-50 text-green-700"
-                      } border border-green-500/20`}
+                        } border border-green-500/20`}
                     >
                       <CheckCircle className="w-5 h-5 flex-shrink-0" />
                       <p className="text-sm font-medium">
@@ -451,11 +426,10 @@ export function Contact({ isDark }: ContactProps) {
                     className="mt-4 overflow-hidden"
                   >
                     <div
-                      className={`p-4 rounded-xl flex items-center gap-3 ${
-                        isDark
+                      className={`p-4 rounded-xl flex items-center gap-3 ${isDark
                           ? "bg-red-500/10 text-red-400"
                           : "bg-red-50 text-red-700"
-                      } border border-red-500/20`}
+                        } border border-red-500/20`}
                     >
                       <AlertCircle className="w-5 h-5 flex-shrink-0" />
                       <p className="text-sm font-medium">

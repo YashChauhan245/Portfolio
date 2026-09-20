@@ -43,7 +43,7 @@ LeetCode: 500+ Problems Solved
 
 Final-year CSE undergraduate with hands-on experience 
 building full-stack web applications, B2B SaaS platforms, 
-and real-time AI systems. Completed a software engineering & research 
+and real-time AI systems. Completed a software engineering 
 internship at DRDO (Ministry of Defence).`,
   },
   "~/README.md": {
@@ -148,7 +148,7 @@ Features: ATS resume scoring, AI cover letter generator, interactive mock interv
   },
   "~/experience/DRDO.txt": {
     type: "file",
-    content: `Software Engineering & Research Intern
+    content: `Software Engineering Intern
 DRDO, Scientific Analysis Group (Ministry of Defence) | June 2025 - August 2025
 
 - Engineered automated end-to-end publishing platform (Python/Flask, LaTeX) converting raw manuscripts into two-column IEEE papers.
@@ -352,7 +352,7 @@ export function Terminal({ isDark }: TerminalProps) {
         return [
           "\x1b[1mWork Experience:\x1b[0m",
           "",
-          "\x1b[33mDRDO, Scientific Analysis Group (Ministry of Defence)\x1b[0m (Software Engineering & Research Intern)",
+          "\x1b[33mDRDO, Scientific Analysis Group (Ministry of Defence)\x1b[0m (Software Engineering Intern)",
           "Engineered IEEE Document Formatter platform with local LLMs (Ollama), PyMuPDF, SQLite, & automated LaTeX compilation.",
         ];
 

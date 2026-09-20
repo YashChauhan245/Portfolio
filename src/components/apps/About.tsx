@@ -64,14 +64,14 @@ export function About({ isDark }: AboutProps) {
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               className={`w-32 h-32 rounded-2xl border-4 ${isDark
-                  ? "border-[#0a0a0a] bg-[#1e1e1e]"
-                  : "border-gray-50 bg-white"
+                ? "border-[#0a0a0a] bg-[#1e1e1e]"
+                : "border-gray-50 bg-white"
                 } flex items-center justify-center overflow-hidden shadow-xl`}
             >
               <div
                 className={`w-full h-full flex items-center justify-center text-4xl font-bold ${isDark
-                    ? "bg-gradient-to-br from-[#012042] to-[#55047e] text-white"
-                    : "bg-gradient-to-br from-blue-500 to-purple-500 text-white"
+                  ? "bg-gradient-to-br from-[#012042] to-[#55047e] text-white"
+                  : "bg-gradient-to-br from-blue-500 to-purple-500 text-white"
                   }`}
               >
                 YC
@@ -141,8 +141,8 @@ export function About({ isDark }: AboutProps) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`p-2.5 rounded-xl transition-all duration-200 ${isDark
-                        ? "bg-white/10 hover:bg-white/20 text-white hover:scale-105"
-                        : "bg-black/10 hover:bg-black/20 text-gray-700 hover:scale-105"
+                      ? "bg-white/10 hover:bg-white/20 text-white hover:scale-105"
+                      : "bg-black/10 hover:bg-black/20 text-gray-700 hover:scale-105"
                       }`}
                     title={link.label}
                   >
@@ -180,8 +180,8 @@ export function About({ isDark }: AboutProps) {
                   )
                 }
                 className={`px-3.5 py-2 text-xs font-semibold rounded-xl border transition-all active:scale-95 cursor-pointer ${isDark
-                    ? "border-white/20 hover:bg-white/10 text-white"
-                    : "border-black/20 hover:bg-black/5 text-gray-800"
+                  ? "border-white/20 hover:bg-white/10 text-white"
+                  : "border-black/20 hover:bg-black/5 text-gray-800"
                   }`}
               >
                 <span>✉️ Contact</span>
@@ -213,7 +213,7 @@ export function About({ isDark }: AboutProps) {
             <p
               className={`leading-relaxed mt-3 ${isDark ? "text-white/70" : "text-gray-600"}`}
             >
-              Completed a software engineering & research internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS, AI dental care platforms, financial analytics, and WebRTC language exchange platforms. Solved 500+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.
+              Completed a software engineering internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS, AI dental care platforms, financial analytics, and WebRTC language exchange platforms. Solved 500+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.
             </p>
           </motion.div>
 

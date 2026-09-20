@@ -65,7 +65,7 @@ const RESUME_DATA: ResumeSection[] = [
     title: "Executive Summary",
     type: "text",
     content:
-      "Final-year CSE undergraduate (CGPA 8.5/10) with hands-on experience building full-stack web applications, B2B SaaS platforms, and real-time systems using Next.js 15, React 19, Node.js, Express, TypeScript, PostgreSQL, and MongoDB. Completed a software engineering & research internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS and financial analytics. Solved 500+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.",
+      "Final-year CSE undergraduate (CGPA 8.5/10) with hands-on experience building full-stack web applications, B2B SaaS platforms, and real-time systems using Next.js 15, React 19, Node.js, Express, TypeScript, PostgreSQL, and MongoDB. Completed a software engineering internship at DRDO (Ministry of Defence) and independently shipped live full-stack products spanning multi-tenant SaaS and financial analytics. Solved 500+ DSA problems on LeetCode. Seeking a Software Development Engineer (SDE) role.",
   },
   {
     id: "education",
@@ -114,7 +114,7 @@ const RESUME_DATA: ResumeSection[] = [
     type: "list",
     items: [
       {
-        heading: "Software Engineering & Research Intern",
+        heading: "Software Engineering Intern",
         subHeading: "DRDO, Scientific Analysis Group (Ministry of Defence)",
         period: "June 2025 – August 2025",
         location: "New Delhi, India",
@@ -199,8 +199,8 @@ export function Resume({ isDark }: ResumeProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`flex items-center h-fit w-fit gap-2 px-4 py-2 border rounded-lg text-sm font-semibold transition-all ${isDark
-                    ? "border-white/20 bg-white/5 hover:bg-white/10 text-white"
-                    : "border-gray-300 bg-gray-50 hover:bg-gray-100 text-gray-800"
+                  ? "border-white/20 bg-white/5 hover:bg-white/10 text-white"
+                  : "border-gray-300 bg-gray-50 hover:bg-gray-100 text-gray-800"
                   }`}
               >
                 <ExternalLink className="w-4 h-4" />
